@@ -1,9 +1,6 @@
-
-# DecodeLabs Internship Project 3: SQL Data Analysis
-
 ## Project Overview
 
-This project represents the extraction phase of the DecodeLabs Data Analytics internship program. The objective was to demonstrate proficiency in SQL by writing structured queries to filter, group, and aggregate raw data into actionable business intelligence. By completing this milestone, I have proven the ability to bridge the gap between massive datasets and specific answers through relational logic.
+This project demonstrates proficiency in SQL by writing structured queries to filter, group, and aggregate raw data into actionable business intelligence. The objective was to bridge the gap between massive datasets and specific answers through relational logic.
 
 **Project Goal:** Perform SQL data analysis on an e-commerce dataset to extract business insights.
 
@@ -228,7 +225,7 @@ The boxplot reveals several important patterns:
 | `sql_payment_counts.png` | Bar chart of orders by payment method |
 | `sql_status_distribution.png` | Bar chart of order status distribution |
 | `sql_totalprice_by_product_boxplot.png` | Boxplot of TotalPrice distribution by product |
-| `decode_labs_project3_sql.py` | Python script with all SQL queries |
+| `sql_analysis_script.py` | Python script with all SQL queries |
 | `Dataset for Data Analytics.xlsx` | Original dataset |
 | `requirements.txt` | Python dependencies |
 | `README.md` | This documentation file |
@@ -260,8 +257,8 @@ pip install pandas numpy matplotlib seaborn openpyxl
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/DecodeLabs-Project3-SQL.git
-   cd DecodeLabs-Project3-SQL
+   git clone https://github.com/yourusername/Ecommerce-SQL-Analysis.git
+   cd Ecommerce-SQL-Analysis
    ```
 
 2. **Place the dataset**:
@@ -269,7 +266,7 @@ pip install pandas numpy matplotlib seaborn openpyxl
 
 3. **Run the Python script**:
    ```bash
-   python decode_labs_project3_sql.py
+   python sql_analysis_script.py
    ```
 
 4. **Google Colab Option**:
@@ -296,18 +293,9 @@ pip install pandas numpy matplotlib seaborn openpyxl
 ## Author
 
 Cassandra Goto
-DecodeLabs Data Analytics Intern
-Batch: 2026
-
-## Acknowledgments
-
-- DecodeLabs for providing the internship opportunity and project framework
-- The DecodeLabs team for mentorship and guidance
+cassandragoto10@gmail.com
 
 ## License
 
-This project is submitted as part of the DecodeLabs internship program. All rights reserved.
+This project is available for portfolio and learning purposes. All rights reserved.
 
-## Contact
-
-- **Email**: cassandragoto10@gmail.com
